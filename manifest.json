@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "微阅Focus",
+  "version": "1.1.5",
+  "description": "为网页阅读提供阅读区全屏、背景切换和静止隐藏鼠标功能。适用于 weread.qq.com，非官方扩展。",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://weread.qq.com/web/reader/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["fullscreen-icon.svg"],
+      "matches": ["https://weread.qq.com/*"]
+    }
+  ]
+}

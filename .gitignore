@@ -1,0 +1,6 @@
+work/
+*.crx
+*.pem
+*.key
+.DS_Store
+Thumbs.db

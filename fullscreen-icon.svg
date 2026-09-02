@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Fullscreen</title>
+  <desc id="desc">A thin gray fullscreen corners icon inside a white circular button.</desc>
+  <circle cx="24" cy="24" r="24" fill="#FFFFFF"/>
+  <g stroke="#9AA0A6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M21 15H17.5C16.119 15 15 16.119 15 17.5V21"/>
+    <path d="M27 15H30.5C31.881 15 33 16.119 33 17.5V21"/>
+    <path d="M21 33H17.5C16.119 33 15 31.881 15 30.5V27"/>
+    <path d="M27 33H30.5C31.881 33 33 31.881 33 30.5V27"/>
+  </g>
+</svg>
