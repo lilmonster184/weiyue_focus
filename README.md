@@ -57,7 +57,6 @@ icons/              扩展图标
 PRIVACY.md          隐私政策
 NOTICE.md           商标与第三方声明
 SECURITY.md         安全问题说明
-STORE-LISTING.md    Chrome 商店发布文案和检查清单
 ```
 
 ## 许可证
